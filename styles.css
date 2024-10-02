@@ -1,0 +1,279 @@
+/* Reset básico para eliminar el margen y el relleno por defecto */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  background-color: #e0e0e0;
+}
+
+.d-item{
+
+    height: 600px;
+  
+  }
+  
+  .d-img{
+    height: 100%;
+    filter: brightness(0.5);
+    object-fit: cover;
+
+  }
+
+
+  .margen{
+    margin-top: 120px;
+  }
+
+  @media (max-width: 768px) {
+    .carousel-item {
+        height: 300px; /* Altura ajustada para pantallas más pequeñas */
+
+      }
+
+      .margen{
+        margin-top: auto;
+      }
+
+    }
+
+@media (max-width: 576px) {
+    .carousel-item {
+        height: 300px; /* Altura ajustada para pantallas muy pequeñas */
+    }
+
+    
+    .margen{
+      margin-top: 40px;
+    }
+}
+
+.navbar-custom{
+  background-color: #000000;
+}
+
+.navbar-toggler {
+  display: flex;
+  justify-content: flex-end; /* Alinea el contenido a la derecha */
+  width: 100%; /* Opcional, para que el botón ocupe todo el ancho */
+}
+.icono-blanco {
+  color: rgb(192, 192, 192); /* Cambia el color a blanco */
+}
+
+.nav-link {
+  margin: 0 15px; /* Espaciado entre los elementos */  
+  color: white;
+  
+}
+
+.navbar-custom .nav-link:hover {
+  color: #10eafa; /* Cambia el color al pasar el mouse */
+
+}
+
+
+.navbar{
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.459), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+}
+
+
+  
+
+  li{
+    justify-content: center;
+  }
+
+
+ .precios{
+  background-color: #e7e7e7ce;
+ } 
+
+.card-img-top {
+  height: 200px; /* Ajusta la altura de las imágenes según sea necesario */
+  object-fit: cover; /* Asegura que la imagen cubra el área sin distorsionarse */
+}
+
+.precios{
+  margin-top: 100px;
+}
+
+
+.ubicacion {
+  padding: 5rem 0;
+}
+.map-container {
+  position: relative;
+  width: 100%;
+  max-width: 800px; /* Ajusta el tamaño máximo del mapa */
+  margin: 0 auto; /* Centra el mapa horizontalmente */
+}
+.map-container iframe {
+  width: 100%;
+  height: 450px; /* Altura fija del mapa */
+  border: 0;
+}
+@media (max-width: 768px) {
+  .map-container iframe {
+      height: 300px; /* Ajusta la altura del mapa en pantallas pequeñas */
+  }
+}
+
+
+.card-price {
+  background-image: url('https://lh3.googleusercontent.com/p/AF1QipOUBTVv3g9OUAAGelXrZ_1jI1fSCe2Drgk541xz=s680-w680-h510');
+  background-size: cover; /* Asegura que la imagen cubra toda la tarjeta */
+  background-position: center; /* Centra la imagen en la tarjeta */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  color: white; /* Cambia el color del texto para asegurar contraste */
+}
+
+.card-price2 {
+  background-image: url('https://lh3.googleusercontent.com/p/AF1QipNw7i6yt_-MPTvlzcc-6oQ6n14-QBFr4579rY6T=s680-w680-h510');
+  background-size: cover; /* Asegura que la imagen cubra toda la tarjeta */
+  background-position: center; /* Centra la imagen en la tarjeta */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  color: white; /* Cambia el color del texto para asegurar contraste */
+}
+
+.card-price3 {
+  background-image: url('https://lh3.googleusercontent.com/p/AF1QipOkhbcX1kbbzX-qpnhHGlu82rednPX5nCVnozdX=s680-w680-h510');
+  background-size: cover; /* Asegura que la imagen cubra toda la tarjeta */
+  background-position: center; /* Centra la imagen en la tarjeta */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  color: white; /* Cambia el color del texto para asegurar contraste */
+}
+
+
+.card-price4 {
+  background-image: url('https://lavadodeautosadomicilio.cl/wp-content/uploads/2023/07/limpieza232cd.jpg');
+  background-size: cover; /* Asegura que la imagen cubra toda la tarjeta */
+  background-position: center; /* Centra la imagen en la tarjeta */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  color: white; /* Cambia el color del texto para asegurar contraste */
+}
+
+
+
+.card-price5 {
+  background-image: url('https://jugoiberica.com/wp-content/uploads/2020/07/pulir-los-faros.jpg');
+  background-size: cover; /* Asegura que la imagen cubra toda la tarjeta */
+  background-position: center; /* Centra la imagen en la tarjeta */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  color: white; /* Cambia el color del texto para asegurar contraste */
+}
+
+
+
+.card-price6 {
+  background-image: url('https://i.ytimg.com/vi/0IoPzXKIvZ0/hq720_2.jpg?sqp=-oaymwEYCJYDENAFSFryq4qpAwoIARUAAIhC0AEB&rs=AOn4CLCc_mq64erC237pynn6O0lC6bQAJA');
+  background-size: cover; /* Asegura que la imagen cubra toda la tarjeta */
+  background-position: center; /* Centra la imagen en la tarjeta */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  color: white; /* Cambia el color del texto para asegurar contraste */
+}
+
+
+.card-body {
+  background: rgba(0, 0, 0, 0.5); /* Agrega un fondo oscuro semi-transparente */
+  padding: 20px;
+  border-radius: 10px; /* Opcional: para bordes redondeados */
+}
+
+.ubicacion{
+  background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.226)), url('https://www.debate.com.mx/img/2022/04/03/escuinapa-1_crop1648999529899.jpg?__scale=w:1200,h:675,t:2');
+  
+  background-size: cover; /* Asegura que la imagen cubra toda la tarjeta */
+  background-position: center; /* Centra la imagen en la tarjeta */
+  background-repeat: no-repeat; 
+
+background-attachment: fixed;
+width: 100%;
+
+}
+
+
+.ubicacion2{
+  
+  
+  color: white; /* Cambia el color del texto para asegurar contraste */
+  object-fit: cover;
+  
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px); /* Mueve la tarjeta hacia arriba */
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2); /* Agrega sombra para el efecto de elevación */
+}
+
+
+/* Estilos para el footer */
+
+.social-icons .btn {
+  font-size: 1.5rem;
+  transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.social-icons .btn:hover {
+  color: #000000;
+  border-color: #000000;
+}
+
+
+.footer-custom{  
+  margin-top: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.425)), url('https://topadventure.com/img/2021/07/12/escuinapa_sinaloa_portada.jpg?__scale=w:2000,h:1125,t:2,fpx:487,fpy:476');
+  background-size: cover; /* Asegura que la imagen cubra toda la tarjeta */
+  background-position: center; /* Centra la imagen en la tarjeta */
+  background-repeat: no-repeat; 
+background-attachment: fixed;
+width: 100%;
+
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3{
+  font-weight: 600;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Desplazamiento horizontal, vertical, desenfoque, color */
+
+}
+
+
+.custom-carousel {
+  height: 500px; /* Ajusta la altura según sea necesario */
+  overflow: hidden;
+  position: relative;
+  width: 400px;
+}
+.centered-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Ocupa toda la altura de la ventana */
+  flex-direction: column; /* Centra los elementos en columna */
+}
+
+@media (max-width: 768px) {
+  .custom-carousel {
+      height: 400px; /* Ajusta la altura en pantallas pequeñas si es necesario */
+      width: 300px;
+  }
+}
+
+
+.trabajosrealizados{
+  
+  background-color: #ffeaea;
+}
+

@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarwashCarlos</title>
+    <script src="script.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+
+<nav class="navbar navbar-expand-lg  fixed-top navbar-custom">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars icono-blanco"></i>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-home"></i> Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#precios-1"><i class="fas fa-car"></i> Servicios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#ubicacion"><i class="fas fa-map-marker-alt"></i> Ubicación</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+    <section id="hero">
+        <!-- Carousel -->
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+            <!-- Indicators/dots -->
+
+            <!-- The slideshow/carousel -->
+            <div id="hero-carousel" class="carousel-inner">
+                <div class="carousel-item active d-item ">
+                    <img loading="lazy"
+                        src="img/hero.jpg"
+                        alt="portada" class="d-block w-100 d-img">
+                    <div class="carousel-caption  d-md-block top-0 mt-4">
+                        <h1 class=" fs-3 text-uppercase display-sm-3 margen">Trae tu carro limpio siempre con</h1>
+                        <p class="display-4 display-sm-3 display-md-2 display-lg-1 fw-bolder">CarWashCarlos</p>
+
+                    </div>
+                </div>
+                <div class="carousel-item d-item">
+                    <img loading="lazy"
+                        src="img/hero2.jpg"
+                        alt="camioneta" class="d-block w-100 d-img">
+                    <div class="carousel-caption d-md-block top-0 mt-4">
+                        <h1 class="margen fs-3 text-uppercase">Encera tu auto en</h1>
+
+                        <p class="display-4 display-sm-3 display-md-2 display-lg-1 fw-bolder">CarWashCarlos</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <section class="precios" >
+        <br id="precios-1">
+        <div class="container-xl container-sm my-5 servicios2">
+            <h2 class="text-center mb-5 mt-5  ">Nuestros Servicios</h2>
+            <div class="row text-center">
+                <!-- Plan Básico -->
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card card-price p-4">
+                        <div class="card-body">
+                            <h3 class="card-title">Básico</h3>
+                            <p class="price">$110 Auto $140 camioneta
+                            <ul class="list-unstyled">
+                                <li> Lavado Basico exterior</li>
+                                <li>Aspirado</li>
+                                <li>Abrillantador de llantas y aroma</li>
+                            </ul>
+                            <a href="https://wa.me/6951144874?text=Buenos%20días,%20me%20interesa%20el%20lavado%20básico"
+                                class="btn btn-primary">Agenda tu lavado</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Plan Estándar -->
+                <div class="col-md-4 mb-4">
+                    <div class="card card-price2 p-4">
+                        <div class="card-body">
+                            <h3 class="card-title">Encerado</h3>
+                            <p class="price">$150 Auto y Camioneta</p>
+                            <ul class="list-unstyled">
+                                <li>Lavado Basico exterior</li>
+                                <li>Encerado</li>
+                                <li>Abrillantador de llantas aroma y aspirado</li>
+                            </ul>
+                            <a href="
+https://wa.me/6951144874?text=Buenos%20días,%20me%20interesa%20el%20encerado" class="btn btn-primary">Agenda tu
+                                lavado</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Plan Premium -->
+                <div class="col-md-4 mb-4">
+                    <div class="card card-price3 p-4">
+                        <div class="card-body">
+                            <h3 class="card-title">Detallado de interiores</h3>
+                            <p class="price">Desde $900 pesos en adelante
+                            <ul class="list-unstyled">
+                                <li>Lavado Premium Exterior</li>
+                                <li>Encerado</li>
+                                <li>Aspirado</li>
+                                <li>Lavado de tapiceria a vapor</li>
+                                <li>Abrillantador de plasticos</li>
+                                <li>Aroma Premium</li>
+
+                            </ul>
+                            <a href="https://wa.me/6951144874?text=Buenos%20días,%20me%20interesa%20el%20detallado%20de%20interiores"
+                                class="btn btn-primary">Cotiza tu lavado premium</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card card-price4 p-4">
+                        <div class="card-body">
+                            <h3 class="card-title">Lavado de asientos</h3>
+                            <p class="price">Desde $600 pesos
+                            <ul class="list-unstyled">
+                                <li>Lavado Basico exterior</li>
+                                <li>Aspirado</li>
+                                <li>Encerado</li>
+                                <li>Lavado de asientos</li>
+                            </ul>
+                            <a href="https://wa.me/6951144874?text=Buenos%20días,%20me%20interesa%20el%20lavado%20de%20asientos"
+                                class="btn btn-primary">Cotiza tu lavado de asientos</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Plan Estándar -->
+                <div class="col-md-4 mb-4">
+                    <div class="card card-price5 p-4">
+                        <div class="card-body">
+                            <h3 class="card-title">Pulido de Faros basico</h3>
+                            <p class="price">$250 pesos</p>
+                            <ul class="list-unstyled">
+                                <li>Pulido de faros</li>
+                                <li>Pulimento profesional</li>
+                                <li>Cera liquída</li>
+                                <li>Sellador de faros</li>
+                            </ul>
+                            <a href="https://wa.me/6951144874?text=Buenos%20días,%20me%20interesa%20el%20pulido%20de%20faros%20básico"
+                                class="btn btn-primary">Agenda tu Pulido de faros basico</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Plan Premium -->
+                <div class="col-md-4 mb-4">
+                    <div class="card card-price6 p-4">
+                        <div class="card-body">
+                            <h3 class="card-title">Pulido de faros evaporación acrilica</h3>
+                            <p class="price">desde $350 pesos en adelante
+                            <ul class="list-unstyled">
+                                <li>Pulido de faros</li>
+                                <li>Evaporacion acrilica</li>
+                                <li>Tren de lijado</li>
+                                <li>Sellador de faros</li>
+                                <li>Cera premium</li>
+                                <li>Mejor acabado</li>
+
+                            </ul>
+                            <a href="https://wa.me/6951144874?text=Buenos%20días,%20me%20interesa%20el%20pulido%20de%20faros%20premium"
+                                class="btn btn-primary">Agenda tu pulido de faros premium</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="trabajosrealizados">
+
+
+        <div class="container-fluid my-5 centered-container trabajosrealizados">
+            <h2 class="text-center mb-4">Trabajos Realizados</h2>
+            <div id="customVerticalCarousel" class="carousel custom-carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img  src="img/1.jpg" class="d-block img-fluid"
+                            alt="Trabajo 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img  src="img/2.jpg" class="d-block img-fluid"
+                            alt="Trabajo 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img  src="img/3.jpg" class="d-block img-fluid"
+                            alt="Trabajo 3">
+                    </div>
+                    <div class="carousel-item">
+                        <img  src="img/4.jpg" class="d-block img-fluid"
+                            alt="Trabajo 5">
+                    </div>
+                    <div class="carousel-item">
+                        <img  src="img/5.jpg" class="d-block img-fluid"
+                            alt="Trabajo 5">
+                    </div>
+                    <div class="carousel-item">
+                        <img  src="img/6.jpg" class="d-block img-fluid"
+                            alt="Trabajo 6">
+                    </div>
+                    
+                    <div class="carousel-item">
+                        <img  src="img/7.jpg" class="d-block img-fluid"
+                            alt="Trabajo 7">
+                    </div>
+                    
+                    <div class="carousel-item">
+                        <img src="img/8.jpg" class="d-block img-fluid"
+                            alt="Trabajo 8">
+                    </div>
+                   
+                   
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#customVerticalCarousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#customVerticalCarousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="" id="ubicacion">
+        <div class="container-fluid ubicacion">
+            <div class="container-fluid ubicacion2">
+                <h2 class="text-center mb-5  ">¡Visítanos!</h2>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="map-container mb-5">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3676.9972180760983!2d-105.7759424246916!3d22.839592429302368!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x869ee31c8e140fb1%3A0x3b8979c39e5b5e9e!2sAutolavado%20CarWash%20Carlos!5e0!3m2!1ses-419!2smx!4v1725602229434!5m2!1ses-419!2smx"
+                                style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-white text-center footer-custom  ">
+        <div class="container">
+            <h5 class="mb-3">Síguenos en nuestras redes sociales</h5>
+            <div class="social-icons">
+                <a href="https://api.whatsapp.com/send?phone=6951144874&text=Hola,%20estoy%20interesado%20en%20lavar%20mi%20carro%20en%20su%20establecimiento.%20%C2%BFCu%C3%A1ndo%20tiene%20disponibilidad?"
+                    target="_blank" class="btn btn-outline-light mx-2" title="WhatsApp">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <a href="https://www.tiktok.com/@jofielontiveros" target="_blank" class="btn btn-outline-light mx-2"
+                    title="TikTok">
+                    <i class="fab fa-tiktok"></i>
+                </a>
+                <a href="https://www.facebook.com/Autolavadocarwashcarlos" target="_blank"
+                    class="btn btn-outline-light mx-2" title="Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://www.youtube.com/@carwashcarlos1" target="_blank" class="btn btn-outline-light mx-2"
+                    title="YouTube">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </div>
+            <p class="mt-3 mb-0">© 2024 CarwashCarlos. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
