@@ -86,11 +86,6 @@ body{
     justify-content: center;
   }
 
-
- .precios{
-  background-color: #e7e7e7ce;
- } 
-
 .card-img-top {
   height: 200px; /* Ajusta la altura de las imágenes según sea necesario */
   object-fit: cover; /* Asegura que la imagen cubra el área sin distorsionarse */
@@ -241,6 +236,7 @@ width: 100%;
 
 body {
   font-family: 'Montserrat', sans-serif;
+  background-color: white;
 }
 
 h3{
@@ -271,9 +267,4 @@ h3{
   }
 }
 
-
-.trabajosrealizados{
-  
-  background-color: #ffeaea;
-}
 
