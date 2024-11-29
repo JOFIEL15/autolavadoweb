@@ -13,31 +13,34 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
     <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+
 </head>
 
 <body>
 
 
-<nav class="navbar navbar-expand-lg  fixed-top navbar-custom">
-    <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fa-solid fa-bars icono-blanco"></i>
-        </button>
-        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fas fa-home"></i> Inicio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#precios-1"><i class="fas fa-car"></i> Servicios</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#ubicacion"><i class="fas fa-map-marker-alt"></i> Ubicación</a>
-                </li>
-            </ul>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-custom" data-aos="fade-down" data-aos-duration="800">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars icono-blanco" data-aos="fade-right" data-aos-duration="800"></i>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav" data-aos="fade-in" data-aos-delay="200">
+                <ul class="navbar-nav">
+                    <li class="nav-item" data-aos="fade-up" data-aos-delay="300">
+                        <a class="nav-link" href="#"><i class="fas fa-home"></i> Inicio</a>
+                    </li>
+                    <li class="nav-item" data-aos="fade-up" data-aos-delay="400">
+                        <a class="nav-link" href="#precios-1"><i class="fas fa-car"></i> Servicios</a>
+                    </li>
+                    <li class="nav-item" data-aos="fade-up" data-aos-delay="500">
+                        <a class="nav-link" href="#ubicacion"><i class="fas fa-map-marker-alt"></i> Ubicación</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div>
-</nav>
+    </nav>
+    
 
 
     <section id="hero">
@@ -52,7 +55,7 @@
                     <img loading="lazy"
                         src="img/hero.jpg"
                         alt="portada" class="d-block w-100 d-img">
-                    <div class="carousel-caption  d-md-block top-0 mt-4">
+                    <div class="carousel-caption  d-md-block top-0 mt-4 " data-aos="fade-up">
                         <h1 class=" fs-3 text-uppercase display-sm-3 margen">Trae tu carro limpio siempre con</h1>
                         <p class="display-4 display-sm-3 display-md-2 display-lg-1 fw-bolder">CarWashCarlos</p>
 
@@ -62,7 +65,7 @@
                     <img loading="lazy"
                         src="img/hero2.jpg"
                         alt="camioneta" class="d-block w-100 d-img">
-                    <div class="carousel-caption d-md-block top-0 mt-4">
+                    <div class="carousel-caption d-md-block top-0 mt-4" data-aos="fade-up">
                         <h1 class="margen fs-3 text-uppercase">Encera tu auto en</h1>
 
                         <p class="display-4 display-sm-3 display-md-2 display-lg-1 fw-bolder">CarWashCarlos</p>
@@ -73,32 +76,28 @@
         </div>
     </section>
 
-
-
-    <section class="precios" >
+    <section class="precios" data-aos="fade-up" data-aos-duration="1000">
         <br id="precios-1">
         <div class="container-xl container-sm my-5 servicios2">
-            <h2 class="text-center mb-5 mt-5  ">Nuestros Servicios</h2>
+            <h2 class="text-center mb-5 mt-5" data-aos="fade-down" data-aos-delay="200">Nuestros Servicios</h2>
             <div class="row text-center">
                 <!-- Plan Básico -->
-
-                <div class="col-lg-4 col-md-6 mb-4">
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-right" data-aos-duration="1200">
                     <div class="card card-price p-4">
                         <div class="card-body">
                             <h3 class="card-title">Básico</h3>
-                            <p class="price">$110 Auto $140 camioneta
+                            <p class="price">$110 Auto $140 camioneta</p>
                             <ul class="list-unstyled">
-                                <li> Lavado Basico exterior</li>
+                                <li>Lavado Basico exterior</li>
                                 <li>Aspirado</li>
                                 <li>Abrillantador de llantas y aroma</li>
                             </ul>
-                            <a href="https://wa.me/6951144874?text=Buenos%20días,%20me%20interesa%20el%20lavado%20básico"
-                                class="btn btn-primary">Agenda tu lavado</a>
+                            <a href="https://wa.me/6951144874?text=Buenos%20días,%20me%20interesa%20el%20lavado%20básico" class="btn btn-primary">Agenda tu lavado</a>
                         </div>
                     </div>
                 </div>
                 <!-- Plan Estándar -->
-                <div class="col-md-4 mb-4">
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-duration="1200">
                     <div class="card card-price2 p-4">
                         <div class="card-body">
                             <h3 class="card-title">Encerado</h3>
@@ -108,95 +107,88 @@
                                 <li>Encerado</li>
                                 <li>Abrillantador de llantas aroma y aspirado</li>
                             </ul>
-                            <a href="
-https://wa.me/6951144874?text=Buenos%20días,%20me%20interesa%20el%20encerado" class="btn btn-primary">Agenda tu
-                                lavado</a>
+                            <a href="https://wa.me/6951144874?text=Buenos%20días,%20me%20interesa%20el%20encerado" class="btn btn-primary">Agenda tu lavado</a>
                         </div>
                     </div>
                 </div>
                 <!-- Plan Premium -->
-                <div class="col-md-4 mb-4">
+                <div class="col-md-4 mb-4" data-aos="fade-left" data-aos-duration="1200">
                     <div class="card card-price3 p-4">
                         <div class="card-body">
                             <h3 class="card-title">Detallado de interiores</h3>
-                            <p class="price">Desde $900 pesos en adelante
+                            <p class="price">Desde $900 pesos en adelante</p>
                             <ul class="list-unstyled">
                                 <li>Lavado Premium Exterior</li>
                                 <li>Encerado</li>
                                 <li>Aspirado</li>
-                                <li>Lavado de tapiceria a vapor</li>
-                                <li>Abrillantador de plasticos</li>
+                                <li>Lavado de tapicería a vapor</li>
+                                <li>Abrillantador de plásticos</li>
                                 <li>Aroma Premium</li>
-
                             </ul>
-                            <a href="https://wa.me/6951144874?text=Buenos%20días,%20me%20interesa%20el%20detallado%20de%20interiores"
-                                class="btn btn-primary">Cotiza tu lavado premium</a>
+                            <a href="https://wa.me/6951144874?text=Buenos%20días,%20me%20interesa%20el%20detallado%20de%20interiores" class="btn btn-primary">Cotiza tu lavado premium</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mb-4">
+                <!-- Lavado de asientos -->
+                <div class="col-md-4 mb-4" data-aos="fade-right" data-aos-duration="1200">
                     <div class="card card-price4 p-4">
                         <div class="card-body">
                             <h3 class="card-title">Lavado de asientos</h3>
-                            <p class="price">Desde $600 pesos
+                            <p class="price">Desde $600 pesos</p>
                             <ul class="list-unstyled">
                                 <li>Lavado Basico exterior</li>
                                 <li>Aspirado</li>
                                 <li>Encerado</li>
                                 <li>Lavado de asientos</li>
                             </ul>
-                            <a href="https://wa.me/6951144874?text=Buenos%20días,%20me%20interesa%20el%20lavado%20de%20asientos"
-                                class="btn btn-primary">Cotiza tu lavado de asientos</a>
+                            <a href="https://wa.me/6951144874?text=Buenos%20días,%20me%20interesa%20el%20lavado%20de%20asientos" class="btn btn-primary">Cotiza tu lavado de asientos</a>
                         </div>
                     </div>
                 </div>
-                <!-- Plan Estándar -->
-                <div class="col-md-4 mb-4">
+                <!-- Pulido básico -->
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-duration="1200">
                     <div class="card card-price5 p-4">
                         <div class="card-body">
-                            <h3 class="card-title">Pulido de Faros basico</h3>
+                            <h3 class="card-title">Pulido de Faros Básico</h3>
                             <p class="price">$250 pesos</p>
                             <ul class="list-unstyled">
                                 <li>Pulido de faros</li>
                                 <li>Pulimento profesional</li>
-                                <li>Cera liquída</li>
+                                <li>Cera líquida</li>
                                 <li>Sellador de faros</li>
                             </ul>
-                            <a href="https://wa.me/6951144874?text=Buenos%20días,%20me%20interesa%20el%20pulido%20de%20faros%20básico"
-                                class="btn btn-primary">Agenda tu Pulido de faros basico</a>
+                            <a href="https://wa.me/6951144874?text=Buenos%20días,%20me%20interesa%20el%20pulido%20de%20faros%20básico" class="btn btn-primary">Agenda tu Pulido de Faros Básico</a>
                         </div>
                     </div>
                 </div>
-                <!-- Plan Premium -->
-                <div class="col-md-4 mb-4">
+                <!-- Pulido Premium -->
+                <div class="col-md-4 mb-4" data-aos="fade-left" data-aos-duration="1200">
                     <div class="card card-price6 p-4">
                         <div class="card-body">
-                            <h3 class="card-title">Pulido de faros evaporación acrilica</h3>
-                            <p class="price">desde $350 pesos en adelante
+                            <h3 class="card-title">Pulido de Faros Evaporación Acrílica</h3>
+                            <p class="price">Desde $350 pesos en adelante</p>
                             <ul class="list-unstyled">
                                 <li>Pulido de faros</li>
-                                <li>Evaporacion acrilica</li>
+                                <li>Evaporación acrílica</li>
                                 <li>Tren de lijado</li>
                                 <li>Sellador de faros</li>
                                 <li>Cera premium</li>
                                 <li>Mejor acabado</li>
-
                             </ul>
-                            <a href="https://wa.me/6951144874?text=Buenos%20días,%20me%20interesa%20el%20pulido%20de%20faros%20premium"
-                                class="btn btn-primary">Agenda tu pulido de faros premium</a>
+                            <a href="https://wa.me/6951144874?text=Buenos%20días,%20me%20interesa%20el%20pulido%20de%20faros%20premium" class="btn btn-primary">Agenda tu Pulido Premium</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        </div>
     </section>
+    
 
     <section id="trabajosrealizados">
 
 
         <div class="container-fluid my-5 centered-container trabajosrealizados">
-            <h2 class="text-center mb-4">Trabajos Realizados</h2>
+            <h2 class="text-center mb-4" data-aos="fade-up" data-aos-duration="100">Trabajos Realizados</h2>
             <div id="customVerticalCarousel" class="carousel custom-carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -251,15 +243,13 @@ https://wa.me/6951144874?text=Buenos%20días,%20me%20interesa%20el%20encerado" c
     </section>
 
 
-
-
-    <section class="" id="ubicacion">
+    <section id="ubicacion" data-aos="fade-up" data-aos-duration="1000">
         <div class="container-fluid ubicacion">
             <div class="container-fluid ubicacion2">
-                <h2 class="text-center mb-5  ">¡Visítanos!</h2>
+                <h2 class="text-center mb-5" data-aos="fade-down" data-aos-delay="200">¡Visítanos!</h2>
                 <div class="row">
                     <div class="col-12">
-                        <div class="map-container mb-5">
+                        <div class="map-container mb-5" data-aos="zoom-in" data-aos-delay="400">
                             <iframe
                                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3676.9972180760983!2d-105.7759424246916!3d22.839592429302368!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x869ee31c8e140fb1%3A0x3b8979c39e5b5e9e!2sAutolavado%20CarWash%20Carlos!5e0!3m2!1ses-419!2smx!4v1725602229434!5m2!1ses-419!2smx"
                                 style="border:0;" allowfullscreen="" loading="lazy"
@@ -270,32 +260,39 @@ https://wa.me/6951144874?text=Buenos%20días,%20me%20interesa%20el%20encerado" c
             </div>
         </div>
     </section>
+    
 
-    <!-- Footer -->
-    <footer class="text-white text-center footer-custom  ">
-        <div class="container">
-            <h5 class="mb-3">Síguenos en nuestras redes sociales</h5>
-            <div class="social-icons">
-                <a href="https://api.whatsapp.com/send?phone=6951144874&text=Hola,%20estoy%20interesado%20en%20lavar%20mi%20carro%20en%20su%20establecimiento.%20%C2%BFCu%C3%A1ndo%20tiene%20disponibilidad?"
-                    target="_blank" class="btn btn-outline-light mx-2" title="WhatsApp">
-                    <i class="fab fa-whatsapp"></i>
-                </a>
-                <a href="https://www.tiktok.com/@jofielontiveros" target="_blank" class="btn btn-outline-light mx-2"
-                    title="TikTok">
-                    <i class="fab fa-tiktok"></i>
-                </a>
-                <a href="https://www.facebook.com/Autolavadocarwashcarlos" target="_blank"
-                    class="btn btn-outline-light mx-2" title="Facebook">
-                    <i class="fab fa-facebook-f"></i>
-                </a>
-                <a href="https://www.youtube.com/@carwashcarlos1" target="_blank" class="btn btn-outline-light mx-2"
-                    title="YouTube">
-                    <i class="fab fa-youtube"></i>
-                </a>
-            </div>
-            <p class="mt-3 mb-0">© 2024 CarwashCarlos. Todos los derechos reservados.</p>
+  <!-- Footer -->
+<footer class="text-white text-center footer-custom" data-aos="fade-up" data-aos-duration="1000">
+    <div class="container">
+        <h5 class="mb-3" data-aos="fade-down" data-aos-delay="200">Síguenos en nuestras redes sociales</h5>
+        <div class="social-icons" data-aos="zoom-in" data-aos-delay="400">
+            <a href="https://api.whatsapp.com/send?phone=6951144874&text=Hola,%20estoy%20interesado%20en%20lavar%20mi%20carro%20en%20su%20establecimiento.%20%C2%BFCu%C3%A1ndo%20tiene%20disponibilidad?"
+                target="_blank" class="btn btn-outline-light mx-2" title="WhatsApp">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="https://www.tiktok.com/@jofielontiveros" target="_blank" class="btn btn-outline-light mx-2"
+                title="TikTok">
+                <i class="fab fa-tiktok"></i>
+            </a>
+            <a href="https://www.facebook.com/Autolavadocarwashcarlos" target="_blank"
+                class="btn btn-outline-light mx-2" title="Facebook">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://www.youtube.com/@carwashcarlos1" target="_blank" class="btn btn-outline-light mx-2"
+                title="YouTube">
+                <i class="fab fa-youtube"></i>
+            </a>
         </div>
-    </footer>
+        <p class="mt-3 mb-0" data-aos="fade-in" data-aos-delay="600">© 2024 CarwashCarlos. Todos los derechos reservados.</p>
+    </div>
+</footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
 
 </body>
 

@@ -222,10 +222,10 @@ width: 100%;
 
 
 .footer-custom{  
-  margin-top: 100px;
+  margin-top: 50px;
   padding-top: 50px;
   padding-bottom: 50px;
-  background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.425)), url('https://topadventure.com/img/2021/07/12/escuinapa_sinaloa_portada.jpg?__scale=w:2000,h:1125,t:2,fpx:487,fpy:476');
+  background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.425)), url('https://www.noroeste.com.mx/binrepository/1120x630/0c0/0d0/none/12707/FGME/playa-01_1-1717152_20220211163958.jpg');
   background-size: cover; /* Asegura que la imagen cubra toda la tarjeta */
   background-position: center; /* Centra la imagen en la tarjeta */
   background-repeat: no-repeat; 
